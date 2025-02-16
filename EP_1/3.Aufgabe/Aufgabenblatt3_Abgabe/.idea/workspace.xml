@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7480e371-52df-43a9-8cce-8ee73c3e11c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angabe/Aufgabenblatt2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/angabe/Aufgabenblatt2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe5.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="1qq5XcwBJIkoqdHwiJZKaFhpsve" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Aufgabe1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4 (6).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe5 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe5 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe5 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Aufgabe7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Max/Studium/1. Semester/EP1/4.Aufgabe/Aufgabenblatt4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Aufgabe1">
+    <configuration name="Aufgabe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe2" />
+      <module name="Aufgabenblatt3" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Aufgabenblatt3" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="Aufgabenblatt3" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Aufgabe1" />
+      <item itemvalue="Application.Aufgabe2" />
+      <item itemvalue="Application.Aufgabe3" />
+      <item itemvalue="Application.Aufgabe4" />
+      <item itemvalue="Application.Aufgabe5" />
+      <item itemvalue="Application.Aufgabe6" />
+      <item itemvalue="Application.Aufgabe7" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7480e371-52df-43a9-8cce-8ee73c3e11c2" name="Default Changelist" comment="" />
+      <created>1617794320675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617794320675</updated>
+      <workItem from="1731508300049" duration="599000" />
+      <workItem from="1731509821422" duration="6000" />
+      <workItem from="1731586507648" duration="274000" />
+      <workItem from="1731873738628" duration="43000" />
+      <workItem from="1731941714849" duration="1594000" />
+      <workItem from="1731944708179" duration="45000" />
+      <workItem from="1732104261223" duration="4631000" />
+      <workItem from="1732119251333" duration="349000" />
+      <workItem from="1732120999360" duration="12000" />
+      <workItem from="1732132124742" duration="760000" />
+      <workItem from="1732180278593" duration="24000" />
+      <workItem from="1733589995686" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+</project>
