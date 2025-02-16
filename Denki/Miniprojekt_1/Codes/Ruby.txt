@@ -1,0 +1,20 @@
+arra = Array.new(1000) { rand(9) } 
+
+puts arra.inspect 
+
+$i = 0 
+$num = 1000 
+$schleife = 0 
+while $i < $num  do 
+  if arra[$i] == arra[0] && arra[$i+1] == arra[1] && arra[$i+2] == arra[2] && $i != 0 
+    print "Zeitschleife gefunden an der " 
+    print "Stelle #{$i} mit dem Wert #{arra[$i]} " 
+    puts  
+    $schleife +=1 
+  end 
+  $i +=1 
+end 
+if $schleife == 0 
+  print "Keine Zeitschleife gefunden" 
+end 
+puts 

@@ -1,0 +1,16 @@
+a = {}   
+for i=1, 1000 do 
+  a[i] = math.random(0,9) 
+  io.write(a[i]) 
+end 
+
+  io.write("\n") 
+  io.write("\n Ausgabe") 
+  io.write("\n") 
+
+for i = 1, 1000-2 do 
+  if a[i] == a[1] and a[i+1] == a[2] and a[i+2] == a[3] and i>1 then 
+    io.write("Zeitschleife gefunden an Stelle ", i, "\n") 
+    io.write(a[i], " | ", a[i+1], " | ", a[i+2], "\n" ) 
+  end 
+end

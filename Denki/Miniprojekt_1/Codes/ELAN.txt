@@ -1,0 +1,12 @@
+VAR 
+  arr: ARRAY [1..1000] OF INTEGER;
+
+FOR i := 1 TO 1000 DO 
+  arr[i] := RANDOM(0, 10) 
+; 
+END; 
+
+FOR i := 1 TO 1000 DO 
+  IF (arr[i] = arr[1]) AND (arr[i+1] = arr[2]) AND (arr[i+2] = arr[3]) AND (i>1) THEN 
+    WRITE("Zeitschleife gefunden"); 
+END;

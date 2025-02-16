@@ -1,0 +1,24 @@
+program Zeischleife; 
+uses SysUtils; 
+var 
+  zufall: Integer; 
+var 
+  arr: array[1..1000] of Integer;  { Ein Array mit 1000 Integer-Werten } 
+  i: Integer; 
+begin 
+  Randomize; {initialisieren des Randoms} 
+  writeln ('Zeischleife suchen gestartet'); 
+  { Array initialisieren } 
+  for i := 1 to 1000 do 
+  begin 
+    arr[i] := Random(10);   
+    Write(arr[i]); 
+  end; 
+  writeln(''); 
+  { Array ausgeben } 
+  for i := 1 to 1000 do 
+    if (arr[i] = arr[1]) and (arr[i+1] = arr[2]) and (arr[i+2] = arr[3]) and (i>1) then 
+    begin 
+      WriteLn( 'Zeischleife gefunden an Stelle ',i); 
+    end 
+  end.

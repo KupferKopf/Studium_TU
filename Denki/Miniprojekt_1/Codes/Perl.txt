@@ -1,0 +1,26 @@
+use warnings; 
+use strict; 
+
+my @array = (undef) x 1000; 
+my $schleife = 0; 
+
+for (my $i = 0; $i < @array; $i++) { 
+  $array[$i] = int(rand(10));  
+} 
+
+print "@array\n"; 
+
+print("\n"); 
+
+for (my $i = 0; $i < @array-2; $i++){ 
+
+  if($array[$i] == $array[0] && $array[$i+1] == $array[1] && $array[$i+2] == $array[2] && $i != 0){ 
+
+    print "Zeitschleife gefunden an Stelle $i \n"; 
+    $schleife ++; 
+  } 
+}
+ 
+if($schleife==0){ 
+  print "Keine Zeitschleife gefunden" 
+}

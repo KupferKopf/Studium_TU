@@ -1,0 +1,15 @@
+| arr Zeitschleifen| 
+arr := Array new: 1000. 
+randy := Random new. 
+
+1 to: 1000 do: [ :i | 
+  arr at: i put: ((randy next)* 9) floor + 1. 
+]. 
+
+1 to: 1000 do: [ :i | 
+  (arr at: i = arr at: 1 and: [ arr at: i+1 = arr at: 2]) and: [ arr at: i+2 = arr at: 3] and: [i>1] 
+  ifTrue: [ Transcript show: ' gefunden'; cr ] 
+  ifFalse: [  ]. 
+]. 
+
+Transcript show: 'Zeitschleife: ', arr printString; cr.
