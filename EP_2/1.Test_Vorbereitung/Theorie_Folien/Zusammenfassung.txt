@@ -1,0 +1,231 @@
+EP2 zusammenfassung
+
+
+PDF: 1
+
+Datenabstraktion:
+	Datenkapselung & Data-Hiding:
+	Zusammenfassen von Methoden und Variablen zu einer Einheit
+	Den Zugriff auf Daten/Variablen von außen einschränken
+
+public methoden:
+	lassen sich von auserhalb der Klasse über die initialisierte Variable aufrufen
+
+privat methoden:
+	können nur intern in einer Klasse verwendet werden
+
+
+Objektvariablen:
+	wenn eine Var in ner klasse ist aber nicht static ist also noch bearbeitet/verändert werden kann
+	aka "je nach notwendigkeit/config kann mans nachem erzeugen vom object noch mal ändern"
+
+Klassenvariablen:
+	wenn eine Var in ner klasse ist aber und static ist also nicht mehr bearbeitet/verändert werden kann
+	aka "was liegt das bickt, kein ändern nach dem constructor"
+
+
+Objektmethoden:
+	ohne static
+	kann auf Objektvars zugreifen
+
+
+Klassenmethoden:
+	mit static
+	ohne recht auf zugriff
+
+PDF: 2
+
+Außenansicht:
+	public
+
+Innenansicht:
+	privat
+
+Identität:
+	== checkt auf gleichheit indem der Speicherbereich angeschaut wird
+
+konstruktor:
+	zum erzeugen/initalisieren von neuen objekten, setzt werte die das objekt benötigt
+	default falls keine wunschwerte übergeben wurden
+
+this. um sachen in ner klasse zu refernzieren, falls methoden var gleich heißt
+
+
+getter und setter anders bennenen
+
+
+PDF: 3
+
+
+Queue: wie eine Reihe halt
+	FIFO- First in First out
+	add: am ende anreihen
+	poll: nächstes anschaun und entnehmen 
+	peek: nächstes anschaun
+	size: anzahl
+
+Double ended queue:
+	Wie normal nur das du auch alles von der anderen seite kanns
+	add first and last
+	poll first and last
+	peek first and last
+
+
+Stack: wie ein stapel halt
+	LIFO: Last in First out 
+	push: hinzufügen ganz oben am Stapel
+	pop: oberstes lesen und entfernene
+	peek: oberstes lesen
+	size: größe des Stacks
+
+
+Assoziative Datenstruktur:
+	alles hat nen key und der verweißt auf ein value
+	put(k,v): setzt für einen key k einen value v und gibt den alten zurück oder null falls neuer key
+	get(k): gibt den value zum key zurück oder halt null
+	remove(k): entfernt den key und seinen value und gibt ihn zurück, falls kein wert gibt null
+	containsKey(k): gibt true zurück wenn es den key gibt
+	containsValue(v): gibt true zurück wenn es ein value gibt der matched
+	size(): die menge an einträge (keys)
+
+	Unterschied zum array:
+	Array hat aufsteigende zahlen um auf werte zuzugreifen | keys sind beliebig
+	Arrays hat ne fixe start größe | asso's können mitwachsen
+	Indexbereich bleibt beim array gleich | keys und werte sind editierbar
+	Zugriff auf werte ist im Array leichter | umgang ist leicht bei asso's
+
+	
+Ziele beim Implementieren:
+	Korrektheit zu der ensprechenden Außenansicht, also angaben halt
+	Einfachheit|Lesbarkeit|Wartbarkeit halt ned mit schleifen und code wiederholungen übertreiben sondern so
+	gut wie möglich begrenzt halten
+	Effizients, soll halt ned n^n oder so laufzeiten haben sondern sachen minimal und schnell fertigstellen
+	
+
+Wrapper:
+	Verwenden andere Klassen mit ähnlicher funktion unter anderem Namen 
+	um diese speziel zu konfigurieren
+	ne art von reverse vererbung
+	man nimmt sich nur nen teil von der eigentlichenklasse
+	BSP. DEQueue wird von der normalen Queue verwendet aber halt nur ein paar methoden
+
+
+PDF: 4
+
+Lineare Liste:
+	besteht auseinzehlnen Knoten mit einem Head und einem Tail (anfang udn Ende)
+	Jeder Knoten verweißt/referenziert auf den nächsten und der letzte auf null
+	Rekursive Datenstrucktur
+	Methoden:
+	
+als Stack:
+	push: setzt den derzeitigen head als next vom neuen und setzt den neuen als algemeinen head
+	pop: entfernt den head und mach den next vom head zum head
+	
+als Queue (mit last): 
+	add: fügt den neuen als head und als end falls die queue leer ist sonst nur als tail vom tail setzten
+	     und zum neuen tail machen
+	poll: setzt den head als head.next und somit fällt das erste elemnt weg
+
+	suchen mit .next
+
+	adden: dawischen werte einfügen tut man in dem man das next vom neuen aufs danach setzt und das bevor bekommt
+	       das neue als next
+
+	entfernen: funktioniert genauso nur das man beim davor das next aufs next vom entfernten setzt
+
+
+Binärer Baum:
+	immer 2 kinder, 1 größer 1 kleiner, links 0 rechts 1
+	eine node hat immer 2 kinder und die wieder und die wieder bis nicht mehr, so geht man auch den baum durch
+	
+
+
+Rekursionen:
+	nur sinnvoll mit Fundierung und Fortschritt
+	
+	Bei Methoden:
+	Fundierung durch Abbruchbedingungen in methoden
+	Fortschritt durch andere Parameterwerte in jedem aufruf
+	
+	bei Datenstrukturen:
+	fundierung durch null oder speziellen Knoten endenpunkte finden
+	fortschritt durch induktiven aufbau (.next oder .left|.right)
+
+
+PDF: 5
+
+Ringsliste:
+	wie List nur mit head = last
+	oder spezial Knotenden der null ist bzw nil heißt
+
+Doppelt verkette Liste:
+	man kann in beide richtungen gehen
+	ein previous und ein next
+
+Interfaces:
+	verwendet sozusagen die methoden aus der Interface klasse, aber nicht mit inhaltlicher logik sondern
+	nur die methoden strucktur
+	Eine art schwache/oberflächliche vererbung
+	
+	implements: classes can implement interfaces
+		    alle methoden müssen erzeugt werden 
+		    klassen können x beliebig viele interfaces implementieren
+		    
+
+	extends: classes can inherit/extend classes, interfaces can inherit/extend interfaces
+		 methoden können implementiert werden in der neuen klasse/interface oder overwrighten
+		 extend funktoniert nur auf maximal 1 klasse bezogen
+		 interfaces können sich endlos extenden
+
+
+Vererbung = extends
+
+man kann child überrall verenden wo parent gefragt ist
+
+
+
+PDF: 6
+
+
+	S untertyp T -> S interface dann auch T | wenn S Klasse dann auch T
+	S ist immer untertyp von sich selber
+	egal ob Klasse oder interface beide sind untertyp von object
+	Kommentare werden nicht weiter gegeben nur Methoden
+
+
+Ersetzbarkeit:
+	interfaces können interfaces erweitern also untertypen sein
+	klassen von klassen
+	untertypen können verwendet werden wenn obertypen erwartet werden
+
+	Bei versionen hilfreich, hat was der vorgänger hat und mehr und kann überal verwrendet werden wo die alte version auch ging
+	leichtere wiederverwendung da immer wieder extendbar
+
+
+Vererbung:
+	erbt alles was ned static ist
+	alles statische ist schon fix in der child class definiert
+	methoden die nicht static sind können überschriben werden
+
+
+toString:
+	gibt gewünschte infos über das Objekt und desen werte wieder
+	fürs debuggen oder vergleichen oder für den user
+
+
+
+Hash-tables:
+	combi aus array und key:value system
+	erstellen nen array mit einer länge
+	bekommt einen key/value (der value wird als key verwendet) der wird bearbeitet mit einer rechnung und gibt einen neuen key zurück
+	der eine stelle in der hash tabelle representiert 
+	unter dieser stelle wird dann der wert also der key gespeichert
+	bei kollisionen also verschiedene keys -> gleiche slots wird aus dem einen slot ein bucket mit einer linked list darin
+	der von den verschiedenen werten aufeinander verweißt um mehr werte unter der gleichen adresse zu speichern
+
+	Opened adressing -> bei kollisionen nächsten freien slot suchen
+	clossed adressing -> linked list im gleichen slot der auf die nächsten/anderen werte verweißt
+
+
+
