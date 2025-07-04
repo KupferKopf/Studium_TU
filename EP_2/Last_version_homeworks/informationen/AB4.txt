@@ -1,0 +1,43 @@
+Ausgabe des Compilers (kann leer sein):
+Ausgabe der Tests:
+* NonEmptyTreeNode.java <2.0>
+  (0) NonEmptyTreeNode.constructor() [OK]
+  (1) NonEmptyTreeNode.store() [OK]
+  (2) NonEmptyTreeNode.remove() [OK]
+  (3) NonEmptyTreeNode.find() [OK]
+  (4) NonEmptyTreeNode.findByName() [OK]
+  (5) NonEmptyTreeNode.flatten() [OK]
+  (6) NonEmptyTreeNode.getKey() [OK]
+  (7) NonEmptyTreeNode.getLeft() [OK]
+  (8) NonEmptyTreeNode.getRight() [OK]
+  (9) NonEmptyTreeNode.setLeft() [OK]
+  (10) NonEmptyTreeNode.setRight() [OK]
+* TyrannosaurusRex.java <1.0>
+  (0) TyrannosaurusRex.getDNA() [OK]
+  (1) TyrannosaurusRex.getName() [OK]
+  (2) TyrannosaurusRex.getHappiness() [OK]
+  (3) TyrannosaurusRex.feed() [OK]
+  (4) TyrannosaurusRex.toString() [OK]
+* EdSFactory.java <0.5>
+  (0) EdSFactory.create() [OK]
+* Edmontosaurus.java <1.0>
+  (0) Edmontosaurus.getDNA() [OK]
+  (1) Edmontosaurus.getName() [OK]
+  (2) Edmontosaurus.getHappiness() [OK]
+  (3) Edmontosaurus.feed() [OK]
+  (4) Edmontosaurus.toString() [OK]
+* DinoCorp.java <1.7142857142857142>
+  (0) DinoCorp.registerFactory() [OK]
+  (1) DinoCorp.setOrders() [OK]
+  (2) DinoCorp.processNextOrder() [FAIL]
+  (3) DinoCorp.feed() [OK]
+  (4) DinoCorp.countAnimalsByMood() [OK]
+* EmptyTreeNode.java <1.0>
+  (0) EmptyTreeNode.store() [OK]
+  (1) EmptyTreeNode.remove() [OK]
+  (2) EmptyTreeNode.find() [OK]
+  (3) EmptyTreeNode.findByName() [OK]
+  (4) EmptyTreeNode.flatten() [OK]
+* TRexFactory.java <0.5>
+  (0) TRexFactory.create() [OK]
+Gesamt: 8 Punkte (ohne Aufrundung: 7.71429 Punkte)

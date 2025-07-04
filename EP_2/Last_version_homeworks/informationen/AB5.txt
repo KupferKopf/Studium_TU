@@ -1,0 +1,40 @@
+Ausgabe des Compilers (kann leer sein):
+Ausgabe der Tests:
+* DinosaurListIterator.java <1.0>
+  (0) DinosaurListIterator constructor [OK]
+  (1) DinosaurListIterator.hasNext() [OK]
+  (2) DinosaurListIterator.next() [OK]
+  (3) DinosaurListIterator hasNext-next interplay [OK]
+* DinosaurBucketList.java <1.5>
+  (0) DinosaurBucketList.store() [OK]
+  (1) DinosaurBucketList.remove() [OK]
+  (2) DinosaurBucketList.find() [OK]
+  (3) DinosaurBucketList.isEmpty() [OK]
+  (4) DinosaurBucketList.size() [OK]
+  (5) DinosaurBucketList.clear() [OK]
+  (6) DinosaurBucketList.iterator() [OK]
+* TyrannosaurusRex.java <0.25>
+  (0) TyrannosaurusRex.hashCode() [OK]
+  (1) TyrannosaurusRex.equals() [FAIL]
+* Edmontosaurus.java <0.5>
+  (0) Edmontosaurus.hashCode() [OK]
+  (1) Edmontosaurus.equals() [OK]
+* DinosaurDNA.java <0.9>
+  (0) DinosaurDNA.getGeneticCode() [OK]
+  (1) DinosaurDNA.equals() [OK]
+  (2) DinosaurDNA.hashCode() [OK]
+  (3) DinosaurDNA.toString() [FAIL]
+* DinosaurHashMapIterator.java <1.0>
+  (0) DinosaurHashMapIterator constructor [OK]
+  (1) DinosaurHashMapIterator.hasNext() [OK]
+  (2) DinosaurHashMapIterator.next() [OK]
+  (3) DinosaurHashMapIterator hasNext-next interplay [OK]
+* DinosaurHashMap.java <0.8999999999999999>
+  (0) DinosaurHashMap constructor [PARTIAL]
+  (1) DinosaurHashMap.put() [FAIL]
+  (2) DinosaurHashMap.get() [PARTIAL]
+  (3) DinosaurHashMap.remove() [PARTIAL]
+  (4) DinosaurHashMap.clear() [OK]
+  (5) DinosaurHashMap.size() [OK]
+  (6) DinosaurHashMap.iterator() [OK]
+Gesamt: 7 Punkte (ohne Aufrundung: 6.05 Punkte)

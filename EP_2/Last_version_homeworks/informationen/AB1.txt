@@ -1,0 +1,20 @@
+Ausgabe des Compilers (kann leer sein):
+Ausgabe der Tests:
+* Access Modifiers <2.0>
+  (0) : BrailleEncoder: method modifiers [OK]
+  (1) : BrailleEncoder: variable modifiers [OK]
+  (2) : BrailleFont: method modifiers [OK]
+  (3) : BrailleFont: variable modifiers [OK]
+  (4) : LinePrinter: method modifiers [OK]
+  (5) : LinePrinter: variable modifiers [OK]
+* LinePrinter.java <0.21428571428571427>
+  (0) LinePrinter.LinePrinter(): object construction. [OK]
+  (1) LinePrinter.flush() [FAIL]
+  (5) LinePrinter.printString() [FAIL]
+* BrailleFont.java <0.5>
+  (0) BrailleFont.getBitmap() [FAIL]
+  (1) BrailleFont.getHeight() [OK]
+  (2) BrailleFont.getWidth() [OK]
+* BrailleEncoder.java <0.5>
+  (0) BrailleEncoder.toBinary(): implementation and LUT [OK]
+Gesamt: 4 Punkte (ohne Aufrundung: 3.21429 Punkte)

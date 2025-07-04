@@ -1,0 +1,31 @@
+Ausgabe des Compilers (kann leer sein):
+Ausgabe der Tests:
+* BJPlayer.java <1.0>
+  (0) BJPlayer.startGame() [OK]
+  (1) BJPlayer.hit() [OK]
+  (2) BJPlayer.getScore() [OK]
+* BJHand.java <1.8>
+  (0) BJHand.addCard() [OK]
+  (1) BJHand.getScore() [OK]
+  (2) BJHand.clear() [FAIL]
+  (3) BJHand.clone() [OK]
+  (4) BJHand.toString() [OK]
+* Custom Exceptions <0.0>
+  (0) BadDeckException constructor [FAIL]
+  (1) IllegalOperationException constructor [FAIL]
+  (2) OutOfCardsException constructor [FAIL]
+* BJDeck.java <1.5>
+  (0) BJDeck constructor [OK]
+  (1) BJDeck.drawCard() [OK]
+  (2) BJDeck.shuffle() [OK]
+* BJDealer.java <2.0>
+  (0) BJDealer.dealCard() [OK]
+  (1) BJDealer.shuffleDeck() [OK]
+  (2) BJDealer.playAction() [OK]
+* BJCard.java <1.5>
+  (0) BJCard.getSuit() [OK]
+  (1) BJCard.getValue() [OK]
+  (2) BJCard.getScore() [OK]
+  (3) BJCard.toString() [OK]
+  (4) BJCard.equals() [OK]
+Gesamt: 8 Punkte (ohne Aufrundung: 7.8 Punkte)
